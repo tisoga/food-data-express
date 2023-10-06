@@ -1,0 +1,46 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["fullTextSearch"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Category {
+  id    String     @id @default(uuid())
+  name  String
+  image String
+  food  FoodData[]
+
+  @@index([name])
+}
+
+model FoodData {
+  id           String        @id @default(uuid())
+  dishName     String
+  categories   Category      @relation(fields: [categoryId], references: [id])
+  categoryId   String
+  image        String
+  origin       String
+  instructions String[]
+  ingredients  ingredients[]
+  isPopular    Boolean       @default(false)
+  tag          String[]
+  searchCount  Int           @default(0)
+  createdAt    DateTime      @default(now())
+
+  @@index([dishName, createdAt])
+}
+
+model ingredients {
+  id         String   @id @default(uuid())
+  ingredient String
+  qty        String
+  FoodData   FoodData @relation(fields: [foodDataId], references: [id])
+  foodDataId String
+}
