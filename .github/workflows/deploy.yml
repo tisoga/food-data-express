@@ -18,6 +18,12 @@ jobs:
     steps:
       - uses : actions/checkout@v3
 
+      - name : Create .env file
+        run: |
+          touch .env
+          echo DATABASE_URL=${{ secrets.DATABASE_URL }} >> .env
+          echo IMAGE_URL=${{ vars.IMAGE_URL }} >> .env
+
       - id : auth
         name : Authenticate to Google Cloud
         uses : google-github-actions/auth@v1
