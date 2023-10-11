@@ -16,6 +16,14 @@ const prisma = new PrismaClient().$extends({
                     return `${process.env.IMAGE_URL}${foodData.image}`
                 }
             }
+        },
+        category: {
+            image: {
+                needs: { image: true },
+                compute(category) {
+                    return `${process.env.IMAGE_URL}${category.image}`
+                }
+            }
         }
     }
 })
