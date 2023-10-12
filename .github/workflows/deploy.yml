@@ -11,9 +11,8 @@ jobs:
       id-token: write
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: food_data_express
-      SERVICE_NAME : food-data-express
-      PROJECT_ID: vital-ensign-392910
+      IMAGE_NAME: food-data-express
+      PROJECT_ID: ${{ vars.PROJECT_ID }}
       PORT_IMAGE: 8080
     steps:
       - uses : actions/checkout@v3
@@ -49,7 +48,7 @@ jobs:
         name: 'Deploy to Cloudrun'
         uses: 'google-github-actions/deploy-cloudrun@v1'
         with:
-          service: ${{ env.SERVICE_NAME }}
+          service: ${{ env.IMAGE_NAME }}
           image: asia.gcr.io/${{ env.PROJECT_ID }}/${{ env.IMAGE_NAME }}:latest
           region: asia-southeast1
           flags: '--allow-unauthenticated --port=${{ env.PORT_IMAGE }} --max-instances=10'
