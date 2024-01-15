@@ -3,7 +3,8 @@ name: Build Docker Image and Deploy to GCP
 on:
   push:
     branches: [main]
-
+  workflow_dispatch:
+    
 jobs:
   build_and_deploy:
     permissions: 
