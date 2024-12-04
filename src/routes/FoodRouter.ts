@@ -4,7 +4,6 @@ import { getFoodDataQueryType } from "../utils/Types";
 
 const router = Router()
 
-
 router.get('/category', async (req: Request, res: Response) => {
     const result = await getCategory()
 

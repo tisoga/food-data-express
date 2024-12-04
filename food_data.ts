@@ -4,7 +4,7 @@ export const veganQuinoaSalad = {
     dishName: "Vegan Quinoa Salad",
     image: `/dish/Vegan-Quinoa-Salad.jpg`,
     origin: "worldwide",
-    categoryId: '62804623-b57c-42e4-93c3-8b1badca1b61',
+    categoryId: '835c3ddb-6571-4140-bd51-b7c8a6614901',
     ingredients: {
         create: [
             { ingredient: "quinoa", qty: "1 cup" },
@@ -41,7 +41,7 @@ export const veganPizza = {
     dishName: "Vegan Pizza with Plant-Based Cheese",
     image: `/dish/vegan-pizza.jpg`,
     origin: "worldwide",
-    categoryId: '62804623-b57c-42e4-93c3-8b1badca1b61',
+    categoryId: '835c3ddb-6571-4140-bd51-b7c8a6614901',
     ingredients: {
         create: [
             { ingredient: "Pizza dough", qty: "1 ball" },
@@ -75,7 +75,7 @@ export const veganTofuStirFry = {
     dishName: "Vegan Tofu Stir-Fry",
     image: `/dish/Tofu-Stir-Fry.jpg`,
     origin: "worldwide",
-    categoryId: '62804623-b57c-42e4-93c3-8b1badca1b61',
+    categoryId: '835c3ddb-6571-4140-bd51-b7c8a6614901',
     ingredients: {
         create: [
             { ingredient: "Firm tofu", qty: "1 block (about 14 oz or 400g)" },
@@ -114,7 +114,7 @@ export const beefSteak = {
     dishName: "Beef Steak",
     image: `${imageDir}/beef-steak.jpg`,
     origin: "worldwide",
-    categoryId: '75fe0fd1-b421-4b38-9c95-96b3d71cda8e',
+    categoryId: 'fe17f122-2f35-4428-bc58-c86422133f2c',
     ingredients: {
         create: [
             { ingredient: "Beef steak (e.g., ribeye, sirloin)", qty: "1 steak, about 8-10 oz (225-280g)" },
@@ -143,7 +143,7 @@ export const beefBurger = {
     dishName: "Beef Burger",
     image: `${imageDir}/beef-burger.jpg`,
     origin: "worldwide",
-    categoryId: '75fe0fd1-b421-4b38-9c95-96b3d71cda8e',
+    categoryId: 'fe17f122-2f35-4428-bc58-c86422133f2c',
     ingredients: {
         create: [
             { ingredient: "Ground beef", qty: "1/2 lb (about 225g)" },
@@ -178,7 +178,7 @@ export const beefStew = {
     dishName: "Beef Stew",
     image: `${imageDir}/beef-stew.jpg`,
     origin: "worldwide",
-    categoryId: '75fe0fd1-b421-4b38-9c95-96b3d71cda8e',
+    categoryId: 'fe17f122-2f35-4428-bc58-c86422133f2c',
     ingredients: {
         create: [
             { ingredient: "Stewing beef (e.g., chuck or stewing cuts)", qty: "1 lb (about 450g)" },
@@ -215,7 +215,7 @@ export const beefTacos = {
     dishName: "Beef Tacos",
     image: `${imageDir}/beef-tacos.jpeg`,
     origin: "worldwide",
-    categoryId: '75fe0fd1-b421-4b38-9c95-96b3d71cda8e',
+    categoryId: 'fe17f122-2f35-4428-bc58-c86422133f2c',
     ingredients: {
         create: [
             { ingredient: "Ground beef", qty: "1 lb (about 450g)" },
@@ -245,7 +245,7 @@ export const grilledChickenBreast = {
     dishName: "Grilled Chicken Breast",
     image: `${imageDir}/grilled-chicken-breast-4.jpg`,
     origin: "worldwide",
-    categoryId: "f5bf5084-33cc-420c-94fc-0fa499485686",
+    categoryId: "0b5c1e0c-8e90-4f68-a7dd-20a57ddd47bc",
     ingredients: {
         create: [
             { ingredient: "Chicken breasts (boneless and skinless)", qty: "2" },
@@ -272,7 +272,7 @@ export const chickenAlfredoPasta = {
     dishName: "Chicken Alfredo Pasta",
     image: `${imageDir}/Chicken-alfredo-3.jpg`,
     origin: "worldwide",
-    categoryId: "f5bf5084-33cc-420c-94fc-0fa499485686",
+    categoryId: "0b5c1e0c-8e90-4f68-a7dd-20a57ddd47bc",
     ingredients: {
         create: [
             { ingredient: "Boneless, skinless chicken breasts", qty: "2" },
@@ -304,7 +304,7 @@ export const chickenTeriyaki = {
     dishName: "Chicken Teriyaki",
     image: `${imageDir}/Teriyaki-Chicken-1.jpg`,
     origin: "worldwide",
-    categoryId: 'f5bf5084-33cc-420c-94fc-0fa499485686',
+    categoryId: '0b5c1e0c-8e90-4f68-a7dd-20a57ddd47bc',
     ingredients: {
         create: [
             { ingredient: "Chicken thighs (boneless and skinless)", qty: "4" },
@@ -335,7 +335,7 @@ export const friedChicken = {
     dishName: "Fried Chicken",
     image: `${imageDir}/fried-chicken.jpg`,
     origin: "worldwide",
-    categoryId: 'f5bf5084-33cc-420c-94fc-0fa499485686',
+    categoryId: '0b5c1e0c-8e90-4f68-a7dd-20a57ddd47bc',
     ingredients: {
         create: [
             { ingredient: "Chicken pieces (e.g., drumsticks, wings, thighs)", qty: "8 pieces" },
@@ -365,7 +365,7 @@ export const grilledSalmon = {
     dishName: "Grilled Salmon",
     image: `${imageDir}/grilled-salmon-final-2.jpg`,
     origin: "worldwide",
-    categoryId: 'bd329277-d37c-4217-97be-162d7ab00a13',
+    categoryId: 'dd3090fe-f641-49ec-ad42-1c1d544eb613',
     ingredients: {
         create: [
             { ingredient: "Salmon fillets", qty: "4 pieces" },
@@ -391,7 +391,7 @@ export const shrimpScampi = {
     dishName: "Shrimp Scampi",
     image: `${imageDir}/ShrimpScampi.jpg`,
     origin: "worldwide",
-    categoryId: 'bd329277-d37c-4217-97be-162d7ab00a13',
+    categoryId: 'dd3090fe-f641-49ec-ad42-1c1d544eb613',
     ingredients: {
         create: [
             { ingredient: "Large shrimp, peeled and deveined", qty: "450g" },
@@ -425,7 +425,7 @@ export const lobsterBisque = {
     dishName: "Lobster Bisque",
     image: `${imageDir}/Creamy-Lobster-Bisque-square.jpg`,
     origin: "worldwide",
-    categoryId: 'bd329277-d37c-4217-97be-162d7ab00a13',
+    categoryId: 'dd3090fe-f641-49ec-ad42-1c1d544eb613',
     ingredients: {
         create: [
             { ingredient: "Lobster tails", qty: "about 500g" },
@@ -465,7 +465,7 @@ export const tunaSushi = {
     dishName: "Tuna Sushi",
     image: `${imageDir}/tuna-sushi.jpg`,
     origin: "Japan",
-    categoryId: 'bd329277-d37c-4217-97be-162d7ab00a13',
+    categoryId: 'dd3090fe-f641-49ec-ad42-1c1d544eb613',
     ingredients: {
         create: [
             { ingredient: "Sushi rice", qty: "300g" },
@@ -494,7 +494,7 @@ export const caesarSalad = {
     dishName: "Caesar Salad",
     image: `${imageDir}/caesar-salad.jpg`,
     origin: "Italy",
-    categoryId: '09dff57c-fe92-4083-b84c-d4b6e8f287eb',
+    categoryId: '09dc5959-6d22-418a-8ade-c86f8aec904a',
     ingredients: {
         create: [
             { ingredient: "Romaine lettuce, torn into bite-sized pieces", qty: "1 head" },
@@ -523,7 +523,7 @@ export const greekSalad = {
     dishName: "Greek Salad",
     image: `${imageDir}/greek-salad.jpeg`,
     origin: "Greece",
-    categoryId: '09dff57c-fe92-4083-b84c-d4b6e8f287eb',
+    categoryId: '09dc5959-6d22-418a-8ade-c86f8aec904a',
     ingredients: {
         create: [
             { ingredient: "Cucumber, diced", qty: "1" },
@@ -552,7 +552,7 @@ export const capreseSalad = {
     dishName: "Caprese Salad",
     image: `${imageDir}/capress-salad.jpg`,
     origin: "Italy",
-    categoryId: '09dff57c-fe92-4083-b84c-d4b6e8f287eb',
+    categoryId: '09dc5959-6d22-418a-8ade-c86f8aec904a',
     ingredients: {
         create: [
             { ingredient: "Tomatoes, sliced", qty: "4" },
@@ -578,7 +578,7 @@ export const cobbSalad = {
     dishName: "Cobb Salad",
     image: `${imageDir}/cobb-salad.jpg`,
     origin: "United States",
-    categoryId: '09dff57c-fe92-4083-b84c-d4b6e8f287eb',
+    categoryId: '09dc5959-6d22-418a-8ade-c86f8aec904a',
     ingredients: {
         create: [
             { ingredient: "Romaine lettuce, chopped", qty: "1 head" },

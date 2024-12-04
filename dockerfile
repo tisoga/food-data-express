@@ -21,7 +21,6 @@ USER node
 FROM alpine:3.17 As production
 
 ENV PORT=8080
-ENV NODE_VERSION 18.17.1-r0
 
 
 WORKDIR /app
@@ -29,7 +28,7 @@ COPY --chown=node:node package.json .
 COPY --chown=node:node prisma ./prisma/
 COPY --chown=node:node . .
 
-RUN apk add --update nodejs=$NODE_VERSION
+RUN apk add --update nodejs
 RUN apk add --update \
     curl \
     openssl1.1-compat \
